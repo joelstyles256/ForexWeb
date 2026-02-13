@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang = "en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+        <title>Forex Trading - Home </title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+                line-height: 1.6;
+                color: #333;
+                background-color:antiquewhite;
+            }
+            .container {
+                width: 90%;
+                max-width: 1200px;
+                margin:0 auto;
+                padding: 20px;
+            }
+            header {
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                color: white;
+                padding: 1rem 0;
+                text-align: center;
+            }
+            nav ul {
+                display:flex;
+                justify-content: center;
+            }
+            nav ul li {
+                margin: 0 20px;
+            }
+            nav ul li a {
+                color: black;
+                text-decoration: none;
+                font-weight: bold;
+                transition: color 0.3s;
+            }
+            nav ul li a:hover {
+                color: #667eea;
+            }
+            .hero {
+                background: white;
+                padding: 3rem 0;
+                text-align: center;
+                margin-bottom: 2rem;
+                border-radius: 10px;
+                box-shadow: 0 2px 10px rgb(0,0,0,0.1);
+            }
+            .features {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+                gap: 2rem;
+            }
+            .feature-card {
+                background: white;
+                padding: 2rem;
+                border-radius:10px ;
+                box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+                text-align: center;
+            }
+            .feature-card h3 {
+                color: #667eea;
+                margin-bottom: 1rem;
+            }
+            .cta-button {
+                display: inline-block;
+                background: #667eea;
+                color: white;
+                padding: 12px 30px;
+                border-radius: 5px;
+                font-weight: bold;
+            }
+            .cta-button:hover {
+                background: #333;
+                color: white;
+                text-align: center;
+                padding: 2rem 0;
+                margin-top: 3rem;
+            }
+        </style>
+        </head>
+        <body>
+            <header>
+                <div class = "container">
+                    <h1>Forex Trading Mastery</h1>
+                    <p>Unlock the World's Largest Financial Market</p>
+                    <img src="forex-trading image.jpg" width="700" height="400">
+                </div>
+            </header>
+            <nav>
+                <div class="container">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Forex</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="container">
+                <section class="hero">
+                    <h2>Master the $7.5 Trillion Daily Market</h2>
+                    <p>Learn why forex trading is important for modern investors and why you can benefit from global currency movements.</p>
+                    <a href="about.html" class="cta-button">Learn More</a>
+                </section>
+
+                <section class="features">
+                    <div class="feature-card">
+                        <h3>24/5 Market Access</h3>
+                        <p>Trade currencies around the clock from Monday to Friday, fitting any schedule.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>Global Opportunities</h3>
+                        <p>Profit from economic events and currency movements worldwide</p>
+                    </div>
+                </section>
+            </div>
+
+            <footer>
+                <div class="container">
+                    <p>&copy; Forex Trading Mastery. All rights reserved</p>
+                </div>
+            </footer>
+        </body>
+</html>
